@@ -1,0 +1,218 @@
+header {
+    background-color: #EDEDED;
+    padding-right: 0;
+    text-align: center;
+    width: auto;
+    margin-right: 0;
+}
+img {   
+    width: 10%; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener las proporciones originales */
+}
+body {
+    height: 100%;
+    display: grid;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #98e561;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*MENU*/
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #0D0D0D;
+    font-size: 25px; /* font size menu*/
+}
+
+.menu ul {
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    margin: 5px; /*margenes de los cuadros de seleccion*/
+    padding: 0; /*margenes*/
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 18px;
+}
+.menu ul li:last-child {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    display: block;
+    color: rgb(244, 246, 249); /* Font color of the menu*/
+    text-align: left;
+    padding: 15px 40px; /*tamano del cuadro de seleccion*/
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #8f8a8a;
+}
+form {
+    display:inline-block;
+    display: flex;
+    padding: 0 auto;
+    margin: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.Search-button {
+    padding: 5px 5px;
+    font-size: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Search-button:hover {
+    background-color: #41eb13;
+}
+
+/*MAINSECTION*/
+.mainsection {
+    display: flex;
+    height: 100%; /* Ocupa toda la altura del cuerpo y HTML */
+    text-align: center;
+}
+
+/*TEXT*/
+.h1Welcome{
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.pSubtitle {
+    font-size: 15px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Goals ul li{
+    list-style-type:circle; /* Cambia el tipo de viñeta */
+    padding-left: 10px; /* Espacio a la izquierda para las viñetas */
+    text-align: left;
+}
+
+h2{
+    font-size: 25px;
+    color: #333;
+    background-color: #03f15600;
+    text-align: left;
+    padding: 0px;
+    margin: 0;
+}
+
+/*PRODUCTS*/
+.MainHome {
+    flex: 1;
+    background-color: #EDEDED; /* Color de fondo del contenido principal */
+    padding: 30px;/*espacio de las letras con el borde*/
+   
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;   
+}
+.product {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+ 
+    width: 150px;
+}
+.product img {   
+    width: 120px; /* Ancho de la imagen */
+    height: 100px;
+    cursor: pointer; /* Altura automática para mantener las proporciones originales */
+    border-radius: 20px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.product img:hover{ 
+    background-color: #ccc;
+}
+
+/*ASIDE*/
+aside {
+    width: 40%;
+    background-color: #D7D9D9;
+    padding: 20px;
+ 
+}
+
+.Purchases {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    margin-inline-end: auto;
+    border-bottom: 1px solid #343232;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+button[type="button"] {
+    padding: 10px 90px;
+    background-color: #1fa225;
+    color: #fcf8f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover[type="button"] {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 6px;
+    padding-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    overflow: auto;
+}
+
+
